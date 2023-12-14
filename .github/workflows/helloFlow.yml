@@ -3,7 +3,7 @@ on:
   workflow_dispatch
 jobs:
   first-job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Diga oi
         run: echo "Hello World!"
