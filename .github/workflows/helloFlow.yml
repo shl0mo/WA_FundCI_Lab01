@@ -6,8 +6,8 @@ on:
 jobs:
   first-job:
     runs-on: ubuntu-latest
-      steps:
-        - name: Diga oi
-          run: echo "Hello World!"
-        - name: Diga valeu
-          run: echo "Valeu - bye!"
+    steps:
+      - name: Diga oi
+      run: echo "Hello World!"
+      - name: Diga valeu
+      run: echo "Valeu - bye!"
